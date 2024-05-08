@@ -38,11 +38,11 @@ python trainer/total.py -s config/train/config_xx.yaml
 
 To test your model, you can run
 ```
-python trainer/leave.py -s config/train/config_xx.yaml -t config/test/config_xx.yaml -p 0
+python tester/leave.py -s config/train/config_xx.yaml -t config/test/config_xx.yaml -p 0
 ```
 or
 ```
-python trainer/total.py -s config/train/config_xx.yaml -t config/test/config_xx.yaml
+python tester/total.py -s config/train/config_xx.yaml -t config/test/config_xx.yaml
 ```
 
 ### Build your own project.
